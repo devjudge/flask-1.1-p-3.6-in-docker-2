@@ -3,9 +3,7 @@ Flask 1.1.1 - Python 3.6
 
 IMPORTANT NOTES:
 
-    1. If the backend require any database please use any IN-MEMORY or SQLLite database Unless mentioned in Questions Otherwise .
-    3. Make sure you follow the steps mentioned under "PROJECT START STEPS" and ensure that the steps execute successfully. 
-    4. Make sure you follow the steps mentioned under "DOCKER START STEPS" and ensure that the steps execute successfully. 
+    1. Make sure you follow the steps mentioned under "PROJECT START STEPS" and ensure that the steps execute successfully. 
 
 PROJECT START STEPS:
 
@@ -22,3 +20,8 @@ PROJECT START STEPS:
             - python restapi.py
     
     2. Go to http://localhost:8080 in your browser to view it.
+    
+    CLOUD-IDE SETUP STEPS(follow the below steps in case you are using the Cloud IDE instead of your Local IDE):
+	1. Please run the below commands from the project root to setup MySQL and MongoDB in this workspace:
+	    - chmod 0755 ./database-setup.sh
+	    - sh ./database-setup.sh
