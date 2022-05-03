@@ -15,7 +15,6 @@ Flask 1.1.1 - Python 3.6
         1.c. Run the following command(s) in the terminal/command line to run the app:    
             - python restapi.py
     
-    2. Go to http://localhost:8080 in your browser to view it.
     
     CLOUD-IDE SETUP STEPS(follow the below steps in case you are using the Cloud IDE instead of your Local IDE):
 	1. Please run the below commands from the project root to setup MySQL and MongoDB in this workspace:
